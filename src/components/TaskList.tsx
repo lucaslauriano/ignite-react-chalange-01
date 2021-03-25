@@ -84,9 +84,7 @@ export function TaskList() {
                   />
                   <span className="checkmark"></span>
                 </label>
-                <p>
-                  {task.id} - {task.title}
-                </p>
+                <p>{task.title}</p>
               </div>
 
               <button
